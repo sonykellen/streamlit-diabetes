@@ -18,7 +18,7 @@ def predict_diabetes(pregnancies, glucose, blood_pressure, skin_thickness, insul
 
 # Membuat UI dengan Streamlit
 st.title('Deteksi Penyakit Diabetes dengan Decision Tree')
-st.write("Masukkan data berikut untuk mendeteksi apakah Anda berisiko terkena diabetes:")
+st.write("Masukkan data berikut untuk mendeteksi apakah pasien berisiko terkena diabetes:")
 
 # Membagi kolom
 col1, col2 = st.columns(2)
